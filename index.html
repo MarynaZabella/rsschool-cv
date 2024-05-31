@@ -11,24 +11,104 @@
 <p>Skype: Klearredklif</p>
   
   <h2>Brief information</h2>
-  
+  <p>At the moment I have no commercial programming experience, but since school I have been interested in small projects just for my own pleasure.</p>
+
 <h2>Work experience</h2>
-  
+<p>Absent</p>
+
   
 <h2>Education</h2>
+<ul>
+  <li>Course "Basic of programming" on the platform "Stepik"</li>
+  <li>Course "Web Development for Beginners: HTML and CSS" on the platform "Stepik</li>
+  <li>Language courses English B1 and B2 "Leon"</li>
+  <li>Polish language courses A1 and A2 "Polski dla ciebie"</li>
+</ul>
 
 
 
 <h2>Skills</h2>
+<ul>
+  <li>#C</li>
+  <li>Pascal</li>
+  <li>PHP</li>
+  <li>JS</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>GIT, GitHUB</li>
+ </ul>
 
 
 
 <h2>Languages</h2>
+<ul>
+  <li>Belarusian - native</li>
+  <li>Russian - native</li>
+  <li>English - B2</li>
+  <li>Polish - B1</li>
+  <li>Italian - A1</li>
+</ul>
 
 
 <h2>Strengths</h2>
+<ul>
+  <li>The desire for leaning</li>
+  <li>Good communication skills</li>
+  <li>Responsibility</li>
+  <li>Decency</li>
+  <li>A keen eye for detail</li>
+</ul>
 
 <h2>Example code</h2>
+<h3>Palindrome</h3>
+<p>using System;</p>
+<p>public class MainClass</p>
+<p>{</p>
+<p>    public static void Main()</p>
+<p>    {</p>
+<p>         string s = Console.ReadLine();</p>
+<p>            string v = s;</p>
+<p>            string w = "";</p>
+<p>            int countChar = s.Length;</p>
+<p>            for (int index = countChar - 1; index >= 0; index--)</p>
+<p>            {</p>
+<p>                char a = s[index];</p>
+<p>                w = w + a;</p>
+<p>            }</p>
+<p>            if(w==v)</p>
+<p>            {</p>
+<p>                Console.WriteLine("YES");</p>
+<p>            }
+<p>               else</p>
+<p>            {</p>
+<p>                Console.WriteLine("NO");</p>
+<p>            }</p>
+<p>    }</p>
+<p>}</p>
+ 
+<h3>A program that prints those array elements that are multiples of three</h3>
+<p>using System;</p>
+<p>public class MainClass</p>
+<p>{</p>
+<p>    public static void Main()</p>
+<p>    {</p>
+<p>        int n = Convert.ToInt32(Console.ReadLine());</p>
+<p>            string s = Console.ReadLine();</p>
+<p>            string[] ss = s.Split(' ');</p>
+<p>            int[] numbers = new int[n];</p>
+<p>            for (int d=0; d<n; d++)</p>
+<p>            {</p>
+<p>                int number = Convert.ToInt32(ss[d]);</p>
+<p>                numbers[d] = number;</p>
+<p>                if (number%3==0)</p>
+<p>                {</p>
+<p>                    Console.Write(numbers[d]+" ");</p>
+<p>                }</p>
+<p>            }</p>
+<p>    }</p>
+<p>}</p>
+
+
 
 </body>
 </html>
