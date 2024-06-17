@@ -9,23 +9,31 @@ h2{
 }
 h3{
     font-size: 16px;
-    line-height: 14px;
+    line-height: 24px;
+    width: 30%;
 }
 
 p {
     font-size: 14px;
-    line-height: 14px;
+    line-height: 21px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    width: 30%;
+    
 }
 
 pre {
     font-size: 14px;
     font-style: italic;
-    line-height: 24px;
+    line-height: 21px;
 }
 
 ul{
     font-size: 14px;
     line-height: 21px;
+    width: 30%;
 }
 
 .link{
@@ -37,6 +45,7 @@ ul{
     text-align: left;
     font-family: Verdana, Tahoma, Courier New, Times New Roman, sans-serif;
     background-color: #def6f6;
+    margin: 2px;
      }
 
 
