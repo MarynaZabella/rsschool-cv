@@ -1,0 +1,28 @@
+h1 {
+     font-size: 20px;
+} 
+
+h2{
+   font-size: 18px;
+}
+h3{
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+}
+
+pre {
+    font-size: 14px;
+}
+
+ul{
+    font-size: 14px;
+}
+
+  body {
+    color: #000000;
+    text-align: left;
+  }
+ 
