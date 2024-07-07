@@ -42,13 +42,11 @@ ul{
     background-color: #def6f6;
     margin: 2px;
     padding-left: 2%;
-    
      }
 
      .information {
             display: flex;
                      }
-
               .personal_information{
                 padding-top: 10px;
                 padding-bottom: 10px;
@@ -63,8 +61,7 @@ ul{
                 padding-left: 1px;
                 width: 40%;
                }
-   
- 
+    
     .Example_of_code{
         display: flex;
         flex-direction: row;
@@ -93,11 +90,9 @@ ul{
         width: 40%;
     }
 
-
     .center {
         text-align: center;
       }
-
 
       .border-dotted {
         border: 3px dotted #000;
@@ -105,7 +100,6 @@ ul{
         padding-left: 10px;
       }
      
-
       .header {
         border: 3px dotted #000;
         margin: 10px 10px;
@@ -114,5 +108,4 @@ ul{
         font-family: Verdana, Tahoma, Courier New, Times New Roman, sans-serif;
         font-size: 32px;
         line-height: 48px;
-
       }
