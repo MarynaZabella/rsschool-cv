@@ -1,44 +1,39 @@
 h1 {
      font-size: 20px;
      line-height: 30px;
-} 
+    } 
 
 h2{
    font-size: 18px;
    line-height: 27px;
-}
+  }
+
 h3{
     font-size: 16px;
     line-height: 24px;
-    width: 30%;
-}
+    }
 
 p {
     font-size: 14px;
     line-height: 21px;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    width: 30%;
-    
-}
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+       width: 50%;
+   }
 
 pre {
     font-size: 14px;
     font-style: italic;
     line-height: 21px;
+    width: 50%;
 }
 
 ul{
     font-size: 14px;
     line-height: 21px;
-    width: 30%;
+    width: 50%;
 }
-
-.link{
-    text-decoration: underline;
-    }
 
   body {
     color: #000000;
@@ -46,7 +41,78 @@ ul{
     font-family: Verdana, Tahoma, Courier New, Times New Roman, sans-serif;
     background-color: #def6f6;
     margin: 2px;
+    padding-left: 2%;
+    
      }
 
+     .information {
+            display: flex;
+                     }
 
+              .personal_information{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                width: 40%;
+                }
+
+              .profetion_information {
+                padding-top: 10px;
+                padding-right: 10px;
+                padding-bottom: 10px;
+                padding-left: 1px;
+                width: 40%;
+               }
+   
  
+    .Example_of_code{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+   
+    .Title{
+        margin: 10px 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Palindrome{
+        margin: 10px 10px;
+        align-items: left;
+        justify-content: center;
+        width: 40%;
+    }
+
+    .Program{
+        margin: 10px 10px;
+        align-items: left;
+        justify-content: center;
+        width: 40%;
+    }
+
+
+    .center {
+        text-align: center;
+      }
+
+
+      .border-dotted {
+        border: 3px dotted #000;
+        margin: 10px 10px;
+        padding-left: 10px;
+      }
+     
+
+      .header {
+        border: 3px dotted #000;
+        margin: 10px 10px;
+        padding-left: 10px;
+        text-align: center;
+        font-family: Verdana, Tahoma, Courier New, Times New Roman, sans-serif;
+        font-size: 32px;
+        line-height: 48px;
+
+      }
