@@ -1,23 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="English">
 <head>
 <title>Maryna Zabella</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Maryna Zabella</h1>
-<p>Phone number: +48 511 959 401</p>
-<p>E-mail: clearredklif@gmail.com</p>
-<p>Skype: Klearredklif</p>
-  
-  <h2>Brief information</h2>
-  <p>At the moment I have no commercial programming experience, but since school I have been interested in small projects just for my own pleasure.</p>
+  <div id="header" class="header">CV Maryna Zabella</div>
 
-<h2>Work experience</h2>
+
+  <div id="main">
+<h1>Maryna Zabella</h1>
+<img src="IMG_1.jpg" alt="Oops!" width="234" height="265">
+
+<div class="information">
+  <div class="personal_information">
+
+<h2>Contact information:</h2>
+<p>Phone number: <u>+48 511 959 401</u></p>
+<p>E-mail: <u>clearredklif@gmail.com</u></p>
+<p>Skype: <u> Klearredklif </u></p>
+
+    <h2>Brief information:</h2>
+    
+  <p>At the moment I have no commercial programming experience, but since school I have been interested in small projects just for my own pleasure.</p>
+<h2>Work experience:</h2>
 <p>Absent</p>
 
   
-<h2>Education</h2>
+<h2>Education:</h2>
 <ul>
   <li>Course "Basic of programming" on the platform "Stepik"</li>
   <li>Course "Web Development for Beginners: HTML and CSS" on the platform "Stepik</li>
@@ -25,9 +36,11 @@
   <li>Polish language courses A1 and A2 "Polski dla ciebie"</li>
 </ul>
 
+</div>
 
+<div class="profetion_information">
 
-<h2>Skills</h2>
+<h2>Skills:</h2>
 <ul>
   <li>#C</li>
   <li>Pascal</li>
@@ -40,7 +53,7 @@
 
 
 
-<h2>Languages</h2>
+<h2>Languages:</h2>
 <ul>
   <li>Belarusian - native</li>
   <li>Russian - native</li>
@@ -50,7 +63,7 @@
 </ul>
 
 
-<h2>Strengths</h2>
+<h2>Strengths:</h2>
 <ul>
   <li>The desire for leaning</li>
   <li>Good communication skills</li>
@@ -59,54 +72,77 @@
   <li>A keen eye for detail</li>
 </ul>
 
-<h2>Example code</h2>
-<h3>Palindrome</h3>
-<p>using System;</p>
-<p>public class MainClass</p>
-<p>{</p>
-<p>    public static void Main()</p>
-<p>    {</p>
-<p>         string s = Console.ReadLine();</p>
-<p>            string v = s;</p>
-<p>            string w = "";</p>
-<p>            int countChar = s.Length;</p>
-<p>            for (int index = countChar - 1; index >= 0; index--)</p>
-<p>            {</p>
-<p>                char a = s[index];</p>
-<p>                w = w + a;</p>
-<p>            }</p>
-<p>            if(w==v)</p>
-<p>            {</p>
-<p>                Console.WriteLine("YES");</p>
-<p>            }
-<p>               else</p>
-<p>            {</p>
-<p>                Console.WriteLine("NO");</p>
-<p>            }</p>
-<p>    }</p>
-<p>}</p>
- 
-<h3>A program that prints those array elements that are multiples of three</h3>
-<p>using System;</p>
-<p>public class MainClass</p>
-<p>{</p>
-<p>    public static void Main()</p>
-<p>    {</p>
-<p>        int n = Convert.ToInt32(Console.ReadLine());</p>
-<p>            string s = Console.ReadLine();</p>
-<p>            string[] ss = s.Split(' ');</p>
-<p>            int[] numbers = new int[n];</p>
-<p>            for (int d=0; d<n; d++)</p>
-<p>            {</p>
-<p>                int number = Convert.ToInt32(ss[d]);</p>
-<p>                numbers[d] = number;</p>
-<p>                if (number%3==0)</p>
-<p>                {</p>
-<p>                    Console.Write(numbers[d]+" ");</p>
-<p>                }</p>
-<p>            }</p>
-<p>    }</p>
-<p>}</p>
+
+</div>
+</div>
+
+<h2 class="center">Example code:</h2>
+
+<div class="Example_of_code">
+  <div class="Palindrome">
+<h3>Palindrome:</h3>
+<code>
+<pre>using System;</pre>
+<pre>public class MainClass</pre>
+<pre>{</pre>
+<pre>    public static void Main()</pre>
+<pre>    {</pre>
+<pre>         string s = Console.ReadLine();</pre>
+<pre>            string v = s;</pre>
+<pre>            string w = "";</pre>
+<pre>            int countChar = s.Length;</pre>
+<pre>            for (int index = countChar - 1; index >= 0; index--)</pre>
+<pre>            {</pre>
+<pre>                char a = s[index];</pre>
+<pre>                w = w + a;</pre>
+<pre>            }</pre>
+<pre>            if(w==v)</pre>
+<pre>            {</pre>
+<pre>                Console.WriteLine("YES");</pre>
+<pre>            }</pre>
+<pre>               else</pre>
+<pre>            {</pre>
+<pre>                Console.WriteLine("NO");</pre>
+<pre>            }</pre>
+<pre>    }</pre>
+<pre>}</pre>
+</code>
+</div>
+
+<div class="Program">
+<h3>A program that prints those array elements that are multiples of three:</h3>
+<code>
+<pre>using System;</pre>
+<pre>public class MainClass</pre>
+<pre>{</pre>
+<pre>    public static void Main()</pre>
+<pre>    {</pre>
+<pre>        int n = Convert.ToInt32(Console.ReadLine());</pre>
+<pre>            string s = Console.ReadLine();</pre>
+<pre>            string[] ss = s.Split(' ');</pre>
+<pre>            int[] numbers = new int[n];</pre>
+<pre>            for (int d=0; d<n; d++)</pre>
+<pre>            {</pre>
+<pre>                int number = Convert.ToInt32(ss[d]);</pre>
+<pre>                numbers[d] = number;</pre>
+<pre>                if (number%3==0)</pre>
+<pre>                {</pre>
+<pre>                    Console.Write(numbers[d]+" ");</pre>
+<pre>                }</pre>
+<pre>            }</pre>
+<pre>    }</pre>
+<pre>}</pre>
+</code>
+</div>
+</div>
+</div>
+
+<div id="footer" class="border-dotted"> 
+  <h2>Contact information:</h2>
+  <p>Phone number: <u>+48 511 959 401</u></p>
+  <p>E-mail: <u>clearredklif@gmail.com</u></p>
+  <p>Skype: <u> Klearredklif </u></p>
+</div>
 
 
 
